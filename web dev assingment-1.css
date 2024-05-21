@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arvo', serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 89.8vh;
+    gap: 20px;
+    background-color: rgb(235, 245, 255);
+}
+
+.quiz-main-heading {
+    font-size: 4rem;
+    color: rgb(86, 165, 235);
+}
+
+#progress-bar-container {
+    width: 200px;
+    background-color: #f3f3f3;
+}
+
+#progress-bar {
+    width: 0%;
+    height: 20px;
+    background-color: #26a8e4;
+}
+
+.quiz-hidden {
+    display: none;
+}
+
+.quiz-question-container {
+    margin-top: 20px;
+}
+
+#question {
+    font-size: x-large;
+    padding: 5px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.quiz-btn-container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 15px;
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.quiz-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: larger;
+    width: 350px;
+    transition: background-color 0.3s ease;
+}
+
+.quiz-btn:hover {
+    background-color: #ddd;
+}
+
+.option-number {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+}
+
+.option-text {
+    flex-grow: 1;
+    text-align: center;
+    padding: 15px;
+}
+
+.result {
+    color: blue;
+}
+
+.quiz-start-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.quiz-start-btn:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    font-size: large;
+}

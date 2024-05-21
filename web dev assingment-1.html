@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz-App</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="quiz-main-heading">Quik Quiz</div>
+        <div id="progress-bar-container">
+            <div id="progress-bar" class="quiz-hidden"></div>
+        </div>
+        <div class="quiz-main-container quiz-hidden">
+            <div id="question-container" class="quiz-question-container">
+                <div id="question">Question text</div>
+                <div id="answer-buttons" class="quiz-btn-container">
+                    <button class="quiz-btn">Answer 1</button>
+                    <button class="quiz-btn">Answer 2</button>
+                    <button class="quiz-btn">Answer 3</button>
+                    <button class="quiz-btn">Answer 4</button>
+                </div>
+            </div>
+        </div>
+        <button class="quiz-start-btn">Start</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
